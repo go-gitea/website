@@ -1,6 +1,6 @@
 # Gitea: Website
 
-[![Build Status](http://beta.drone.io/api/badges/go-gitea/gitea-website/status.svg)](http://beta.drone.io/go-gitea/gitea-website)
+[![Build Status](http://beta.drone.io/api/badges/go-gitea/website/status.svg)](http://beta.drone.io/go-gitea/website)
 [![](https://images.microbadger.com/badges/image/gitea/website.svg)](http://microbadger.com/images/gitea/website "Get your own image badge on microbadger.com")
 [![Join the chat at https://gitter.im/go-gitea/gitea](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-gitea/gitea)
 
