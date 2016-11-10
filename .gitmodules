@@ -1,0 +1,3 @@
+[submodule "themes/gitea"]
+	path = themes/gitea
+	url = https://github.com/go-gitea/theme.git
