@@ -5,7 +5,20 @@ theme = "gitea"
 disableRSS = false
 disableSitemap = false
 
+defaultContentLanguage = "en"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
 [params]
   Description = "Git with a cup of tea"
   Author = "The Gitea Authors"
   Website = "https://gitea.io"
+  Toplink = "website"
+
+# [languages]
+#   [languages.en]
+#     weight = 0
+#   [languages.de]
+#     weight = 1
