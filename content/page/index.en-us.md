@@ -4,7 +4,6 @@ title: "Welcome"
 weight: 10
 toc: false
 draft: false
-type: "default"
 ---
 
 # Gitea - Git with a cup of tea

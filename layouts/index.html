@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div class="container content">
+	<div class="row">
+		<div class="col-xs-12">
+			{{ range where .Site.Pages "Type" "page" }}
+				{{ .Content }}
+			{{ end }}
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}
