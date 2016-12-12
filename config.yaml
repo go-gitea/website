@@ -1,0 +1,83 @@
+baseurl: https://gitea.io/
+languageCode: en-us
+title: Gitea
+theme: gitea
+disqusShortname: gitea
+
+defaultContentLanguage: en-us
+defaultContentLanguageInSubdir: true
+enableMissingTranslationPlaceholders: true
+
+permalinks:
+  post: /:year/:month/:title/
+  docs: /:slug/
+  page: /:slug/
+  default: /:slug/
+
+params:
+  description: Git with a cup of tea
+  author: The Gitea Authors
+  website: https://gitea.io
+
+menu:
+  page:
+    - name: Website
+      url: /en-us/
+      weight: 10
+      pre: home
+      post: active
+    - name: Docs
+      url: https://docs.gitea.io/en-us/
+      weight: 20
+      pre: question
+    - name: Blog
+      url: https://blog.gitea.io/
+      weight: 30
+      pre: rss
+    - name: Code
+      url: https://code.gitea.io/
+      weight: 40
+      pre: code
+    - name: Downloads
+      url: https://dl.gitea.io/
+      weight: 50
+      pre: download
+    - name: GitHub
+      url: https://github.com/go-gitea/
+      weight: 60
+      pre: github
+
+languages:
+  en-us:
+    weight: 0
+    languageName: English
+  zh-cn:
+    weight: 1
+    languageName: 中文(简体)
+    menu:
+      page:
+        - name: 网站
+          url: /zh-cn/
+          weight: 10
+          pre: home
+          post: active
+        - name: 文档
+          url: https://docs.gitea.io/zh-cn/
+          weight: 20
+          pre: question
+        - name: 博客
+          url: https://blog.gitea.io/
+          weight: 30
+          pre: rss
+        - name: 导入
+          url: https://code.gitea.io/
+          weight: 40
+          pre: code
+        - name: 下载
+          url: https://dl.gitea.io/
+          weight: 50
+          pre: download
+        - name: GitHub
+          url: https://github.com/go-gitea/
+          weight: 60
+          pre: github
