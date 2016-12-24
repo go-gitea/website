@@ -10,7 +10,7 @@ draft: false
 <p class="lead">A painless self-hosted Git service.</p>
 <hr class="my-2">
 <p>
-	Gitea é um fork do [Gogs](http://gogs.io) mantido pela comunidade, 
+	Gitea é um [fork](https://blog.gitea.io/2016/12/welcome-to-gitea/) do [Gogs](http://gogs.io) mantido pela comunidade, 
 	sendo uma solução de hospedagem de código-fonte feito em [Go](https://golang.org/) 
 	e disponibilizado sob a licença [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE).
 </p>
