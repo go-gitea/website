@@ -6,56 +6,32 @@
 		<div class="col-xs-12">
 			<div class="jumbotron">
 				<img class="logo" src="{{ .Site.BaseURL }}images/gitea.png" alt="{{ .Site.Title }}">
-				<h1 class="display-4">Gitea - Git with a cup of tea</h1>
-				<p class="lead">A painless self-hosted Git service.</p>
-				<hr class="my-2">
-				<p>
-					Gitea is a community managed fork of <a href="https://gogs.io/">Gogs</a>,
-					lightweight code hosting solution written in <a href="https://golang.org/">Go</a>
-					and published under the <a href="https://github.com/go-gitea/gitea/blob/master/LICENSE">MIT</a> license.
-				</p>
-				<p class="lead">
-				<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">Try Gitea</a>
-				</p>
+				{{ range where .Site.Pages "Type" "jumbotron" }}
+					{{ .Content }}
+				{{ end }}
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
-			<h3>
-				<svg class="octicon octicon-flame" viewBox="0 0 12 16" version="1.1" aria-hidden="true">
-					<path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path>
-				</svg>
-				Easy to install
-			</h3>
-			<p>Simply run the binary for your platform. Or ship Gitea with Docker or Vagrant, or get it packaged.</p>
+			{{ range where .Site.Pages "Type" "easy-installation" }}
+				{{ .Content }}
+			{{ end }}
 		</div>
 		<div class="col-xs-12 col-sm-6">
-			<h3>
-				<svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
-					<path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path>
-				</svg>
-				Cross-platform
-			</h3>
-			<p>Gitea runs anywhere Go can compile for: Windows, Mac OS X, Linux, ARM, etc. Choose the one you love!</p>
+			{{ range where .Site.Pages "Type" "cross-platform" }}
+				{{ .Content }}
+			{{ end }}
 		</div>
 		<div class="col-xs-12 col-sm-6">
-			<h3>
-				<svg class="octicon octicon-rocket" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
-					<path fill-rule="evenodd" d="M12.17 3.83c-.27-.27-.47-.55-.63-.88-.16-.31-.27-.66-.34-1.02-.58.33-1.16.7-1.73 1.13-.58.44-1.14.94-1.69 1.48-.7.7-1.33 1.81-1.78 2.45H3L0 10h3l2-2c-.34.77-1.02 2.98-1 3l1 1c.02.02 2.23-.64 3-1l-2 2v3l3-3v-3c.64-.45 1.75-1.09 2.45-1.78.55-.55 1.05-1.13 1.47-1.7.44-.58.81-1.16 1.14-1.72-.36-.08-.7-.19-1.03-.34a3.39 3.39 0 0 1-.86-.63M16 0s-.09.38-.3 1.06c-.2.7-.55 1.58-1.06 2.66-.7-.08-1.27-.33-1.66-.72-.39-.39-.63-.94-.7-1.64C13.36.84 14.23.48 14.92.28 15.62.08 16 0 16 0"></path>
-				</svg>
-				Lightweight
-			</h3>
-			<p>Gitea has low minimal requirements and can run on an inexpensive Raspberry Pi. Save your machine energy!</p>
+			{{ range where .Site.Pages "Type" "lightweight" }}
+				{{ .Content }}
+			{{ end }}
 		</div>
 		<div class="col-xs-12 col-sm-6">
-			<h3>
-				<svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" aria-hidden="true">
-					<path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path>
-				</svg>
-				Open Source
-			</h3>
-			<p>It's all on GitHub! Join us by contributing to make this project even better. Don't be shy to be a contributor!</p>
+			{{ range where .Site.Pages "Type" "open-source" }}
+				{{ .Content }}
+			{{ end }}
 		</div>
 	</div>
 </div>
