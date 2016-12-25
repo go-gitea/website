@@ -1,18 +1,16 @@
 ---
 date: "2016-11-08T16:00:00+02:00"
-title: "歡迎"
+title: "開源化"
 weight: 10
 toc: false
 draft: false
 ---
-
 <h3>
-	<svg class="octicon octicon-flame" viewBox="0 0 12 16" version="1.1" aria-hidden="true">
-		<path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path>
+	<svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" aria-hidden="true">
+		<path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path>
 	</svg>
-	Easy to install
+	開源化
 </h3>
 
-Simply [run the binary](https://docs.gitea.io/en-us/install-from-binary/) for your platform.
-Or ship Gitea with [Docker](https://github.com/go-gitea/gitea/tree/master/docker) or [Vagrant](https://github.com/geerlingguy/ansible-vagrant-examples/tree/master/gogs),
-or get it [packaged](https://docs.gitea.io/en-us/install-from-package/).
+所有程式碼都在 [GitHub](https://github.com/go-gitea/gitea/) 上!
+加入我們讓 Gitea 更好，別害羞，你可以做到的。
