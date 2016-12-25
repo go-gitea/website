@@ -14,5 +14,5 @@ draft: false
 	[Go](https://golang.org/) 程式語言撰寫，採用 [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) 授權條款。
 </p>
 <p class="lead">
-<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">Try Gitea</a>
+<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">嘗試 Gitea</a>
 </p>
