@@ -1,18 +1,16 @@
 ---
 date: "2016-11-08T16:00:00+02:00"
-title: "欢迎"
+title: "轻量级"
 weight: 10
 toc: false
 draft: false
 ---
 
 <h3>
-	<svg class="octicon octicon-flame" viewBox="0 0 12 16" version="1.1" aria-hidden="true">
-		<path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path>
+	<svg class="octicon octicon-rocket" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
+		<path fill-rule="evenodd" d="M12.17 3.83c-.27-.27-.47-.55-.63-.88-.16-.31-.27-.66-.34-1.02-.58.33-1.16.7-1.73 1.13-.58.44-1.14.94-1.69 1.48-.7.7-1.33 1.81-1.78 2.45H3L0 10h3l2-2c-.34.77-1.02 2.98-1 3l1 1c.02.02 2.23-.64 3-1l-2 2v3l3-3v-3c.64-.45 1.75-1.09 2.45-1.78.55-.55 1.05-1.13 1.47-1.7.44-.58.81-1.16 1.14-1.72-.36-.08-.7-.19-1.03-.34a3.39 3.39 0 0 1-.86-.63M16 0s-.09.38-.3 1.06c-.2.7-.55 1.58-1.06 2.66-.7-.08-1.27-.33-1.66-.72-.39-.39-.63-.94-.7-1.64C13.36.84 14.23.48 14.92.28 15.62.08 16 0 16 0"></path>
 	</svg>
-	Easy to install
+	轻量级
 </h3>
 
-Simply [run the binary](https://docs.gitea.io/en-us/install-from-binary/) for your platform.
-Or ship Gitea with [Docker](https://github.com/go-gitea/gitea/tree/master/docker) or [Vagrant](https://github.com/geerlingguy/ansible-vagrant-examples/tree/master/gogs),
-or get it [packaged](https://docs.gitea.io/en-us/install-from-package/).
+Gitea 拥有很低的系统需求，即使Raspberry Pi也可运行，节约机器资源！

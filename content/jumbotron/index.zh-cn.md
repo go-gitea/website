@@ -15,5 +15,5 @@ draft: false
 	[MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) 许可证.
 </p>
 <p class="lead">
-<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">Try Gitea</a>
+<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">尝试 Gitea</a>
 </p>
