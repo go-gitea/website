@@ -7,7 +7,7 @@ draft: false
 ---
 
 <h1 class="display-4">Gitea - Git with a cup of tea</h1>
-<p class="lead">A painless self-hosted Git service.</p>
+<p class="lead">Um servidor Git super fácil de instalar.</p>
 <hr class="my-2">
 <p>
 	Gitea é um [fork](https://blog.gitea.io/2016/12/welcome-to-gitea/) do [Gogs](http://gogs.io) mantido pela comunidade, 
@@ -15,5 +15,5 @@ draft: false
 	e disponibilizado sob a licença [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE).
 </p>
 <p class="lead">
-<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">Try Gitea</a>
+<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">Teste o Gitea</a>
 </p>
