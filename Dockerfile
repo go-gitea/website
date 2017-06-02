@@ -1,14 +1,14 @@
+# build stage
+FROM golang:alpine AS build-env
+
+RUN go get -v github.com/mholt/caddy/caddy
+#TODO Build with locale and search plugin
+
 FROM alpine:edge
 EXPOSE 80
 
-RUN apk update && \
-  apk add wget mailcap ca-certificates && \
-  rm -rf /var/cache/apk/* && \
-  wget -O /tmp/caddy.tar.gz "https://caddyserver.com/download/build?os=linux&arch=amd64&features=locale%2Csearch" && \
-  mkdir -p /tmp/caddy && \
-  tar xvzf /tmp/caddy.tar.gz -C /tmp/caddy && \
-  cp /tmp/caddy/caddy /usr/sbin/caddy && \
-  rm -rf /tmp/caddy*
+RUN apk add --no-cache wget mailcap ca-certificates
+COPY --from=build-env /go/bin/caddy /usr/sbin/caddy
 
 CMD ["/usr/sbin/caddy", "-conf", "/etc/caddy.conf"]
 
