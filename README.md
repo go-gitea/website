@@ -1,7 +1,7 @@
 # Gitea: Website
 
 [![Build Status](http://drone.gitea.io/api/badges/go-gitea/website/status.svg)](http://drone.gitea.io/go-gitea/website)
-[![Join the chat at https://gitter.im/go-gitea/gitea](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-gitea/gitea)
+[![Join the chat at https://img.shields.io/discord/322538954119184384.svg](https://img.shields.io/discord/322538954119184384.svg)](https://discord.gg/NsatcWJ)
 [![](https://images.microbadger.com/badges/image/gitea/website.svg)](http://microbadger.com/images/gitea/website "Get your own image badge on microbadger.com")
 
 ## Hosting
