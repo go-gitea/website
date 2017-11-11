@@ -50,8 +50,8 @@ menu:
       url: https://github.com/go-gitea/
       weight: 60
       pre: github
-    - name: Discord Chat
-      url: https://discord.gg/NsatcWJ
+    - name: Chat
+      url: https://matrix.to/#/#gitea:matrix.org
       weight: 70
       pre: comment
     - name: Forum
