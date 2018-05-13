@@ -4,6 +4,7 @@ title: "Easy to install"
 weight: 10
 toc: false
 draft: false
+url: "en-us"
 ---
 
 <h3>

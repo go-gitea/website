@@ -4,6 +4,7 @@ title: "Bem vindo"
 weight: 10
 toc: false
 draft: false
+url: "pt-br"
 ---
 
 <h1 class="display-4">Gitea - Git with a cup of tea</h1>
