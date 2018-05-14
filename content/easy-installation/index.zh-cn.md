@@ -4,6 +4,7 @@ title: "易安装"
 weight: 10
 toc: false
 draft: false
+url: "zh-cn"
 ---
 
 <h3>

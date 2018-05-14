@@ -4,6 +4,7 @@ title: "Makkelijk te installeren"
 weight: 10
 toc: false
 draft: false
+url: "nl-nl"
 ---
 
 <h3>

@@ -4,6 +4,7 @@ title: "歡迎"
 weight: 10
 toc: false
 draft: false
+url: "zh-tw"
 ---
 
 <h1 class="display-4">Gitea - Git with a cup of tea</h1>

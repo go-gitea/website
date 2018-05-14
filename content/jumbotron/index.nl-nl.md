@@ -4,6 +4,7 @@ title: "Welkom"
 weight: 10
 toc: false
 draft: false
+url: "nl-nl"
 ---
 
 <h1 class="display-4">Gitea - Git with a cup of tea</h1>
