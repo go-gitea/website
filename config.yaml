@@ -236,45 +236,45 @@ languages:
           weight: 80
           pre: group
 
-ko-kr:
+  ko-kr:
     weight: 5
     languageName: 한국어
     menu:
       page:
-    -   name: 웹사이트
-        url: /ko-kr/
-        weight: 10
-        pre: home
-        post: active
-      - name: 문서
-        url: https://docs.gitea.io/ko-kr/
-        weight: 20
-        pre: question
-      - name: API
-        url: https://try.gitea.io/api/swagger
-        weight: 25
-        pre: plug
-      - name: 블로그
-        url: https://blog.gitea.io/
-        weight: 30
-        pre: rss
-      - name: 코드
-        url: https://code.gitea.io/
-        weight: 40
-        pre: code
-      - name: 다운로드
-        url: https://dl.gitea.io/
-        weight: 50
-        pre: download
-      - name: GitHub
-        url: https://github.com/go-gitea/
-        weight: 60
-        pre: github
-      - name: Discord 채팅
-        url: https://discord.gg/NsatcWJ
-        weight: 70
-        pre: comment
-      - name: 포럼
-        url: https://discourse.gitea.io/
-        weight: 80
-        pre: group
+        - name: 웹사이트
+          url: /ko-kr/
+          weight: 10
+          pre: home
+          post: active
+        - name: 문서
+          url: https://docs.gitea.io/ko-kr/
+          weight: 20
+          pre: question
+        - name: API
+          url: https://try.gitea.io/api/swagger
+          weight: 25
+          pre: plug
+        - name: 블로그
+          url: https://blog.gitea.io/
+          weight: 30
+          pre: rss
+        - name: 코드
+          url: https://code.gitea.io/
+          weight: 40
+          pre: code
+        - name: 다운로드
+          url: https://dl.gitea.io/
+          weight: 50
+          pre: download
+        - name: GitHub
+          url: https://github.com/go-gitea/
+          weight: 60
+          pre: github
+        - name: Discord 채팅
+          url: https://discord.gg/NsatcWJ
+          weight: 70
+          pre: comment
+        - name: 포럼
+          url: https://discourse.gitea.io/
+          weight: 80
+          pre: group
