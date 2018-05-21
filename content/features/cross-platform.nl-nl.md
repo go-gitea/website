@@ -12,4 +12,4 @@ draft: false
 	Cross-platform
 </h3>
 
-Gitea runs anywhere [Go](http://golang.org/) can compile for: Windows, macOS, Linux, ARM, etc. Choose the one you love!
+Gitea werkt op alles waar [Go](http://golang.org/) op kan compileren: Windows, macOS, Linux, ARM, etc. Kies het platform dat bij je past!
