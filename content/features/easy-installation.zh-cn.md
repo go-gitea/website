@@ -4,6 +4,7 @@ title: "易安装"
 weight: 10
 toc: false
 draft: false
+url: "zh-cn"
 ---
 <h3 class="subtitle is-3">
 	<svg class="octicon octicon-flame" viewBox="0 0 12 16" version="1.1" aria-hidden="true">

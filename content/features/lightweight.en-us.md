@@ -4,6 +4,7 @@ title: "Lightweight"
 weight: 10
 toc: false
 draft: false
+url: "en-us"
 ---
 <h3 class="subtitle is-3">
 	<svg class="octicon octicon-rocket" viewBox="0 0 16 16" version="1.1" aria-hidden="true">

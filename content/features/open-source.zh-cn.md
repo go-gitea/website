@@ -4,6 +4,7 @@ title: "开源化"
 weight: 10
 toc: false
 draft: false
+url: "zh-cn"
 ---
 <h3 class="subtitle is-3">
 	<svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" aria-hidden="true">
