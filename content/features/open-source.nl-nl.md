@@ -4,7 +4,6 @@ title: "Open Source"
 weight: 10
 toc: false
 draft: false
-url: "nl-nl"
 ---
 <h3 class="subtitle is-3">
 	<svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" aria-hidden="true">

@@ -4,7 +4,6 @@ title: "轻量级"
 weight: 10
 toc: false
 draft: false
-url: "zh-cn"
 ---
 
 <h3 class="subtitle is-3">
