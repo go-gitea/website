@@ -5,16 +5,18 @@ weight: 10
 toc: false
 draft: false
 url: "en-us"
+type: "home"
 ---
 
-<h1 class="display-4">Gitea - Git with a cup of tea</h1>
-<p class="lead">A painless self-hosted Git service.</p>
-<hr class="my-2">
-<p>
+<h1 class="title is-1">Gitea - Git with a cup of tea</h1>
+<h3 class="subtitle is-3">A painless self-hosted Git service.</h3>
+<h4 class="subtitle">
 	Gitea is a community managed [fork](https://blog.gitea.io/2016/12/welcome-to-gitea/) of [Gogs](https://gogs.io/),
 	lightweight code hosting solution written in [Go](https://golang.org/)
 	and published under the [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) license.
-</p>
-<p class="lead">
-<a class="btn btn-primary btn-lg" href="https://try.gitea.io" target="_blank" role="button">Try Gitea</a>
-</p>
+</h4>
+
+<div class="container">
+<a class="button is-success is-large" href="https://try.gitea.io" target="_blank">Try Gitea</a>
+<a class="button is-light is-large" href="https://docs.gitea.io">Docs</a>
+</div>
