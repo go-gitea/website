@@ -38,6 +38,10 @@ menu:
       url: https://blog.gitea.io/
       weight: 30
       pre: rss
+    - name: Instances
+      url: /instances
+      weight: 35
+      pre: list
     - name: Code
       url: https://code.gitea.io/
       weight: 40
