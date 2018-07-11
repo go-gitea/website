@@ -2,6 +2,9 @@ workspace:
   base: /srv/app
   path: src
 
+branches:
+  - master
+
 clone:
   git:
     image: plugins/git:1
@@ -17,30 +20,19 @@ pipeline:
       - make clean
       - make build
 
-  docker:
-    image: plugins/docker:17.05
+  publish:
+    image: lucap/drone-netlify:latest
     pull: true
-    secrets: [ docker_username, docker_password ]
-    repo: gitea/website
-    tags: [ '${DRONE_BRANCH##release/v}' ]
+    secrets: [ netlify_token ]
+    site_id: 05515f14-3702-4a84-9ff3-88ba90fe08dd
+    path: public/
     when:
       event: [ push ]
-      branch: [ release/* ]
-
-  docker:
-    image: plugins/docker:17.05
-    pull: true
-    secrets: [ docker_username, docker_password ]
-    repo: gitea/website
-    tags: [ 'latest' ]
-    when:
-      event: [ push ]
-      branch: [ master ]
 
   discord:
-    image: appleboy/drone-discord:1.0.0
+    image: appleboy/drone-discord:1
     pull: true
     secrets: [ discord_webhook_id, discord_webhook_token ]
     when:
-      event: [ push, tag, pull_request ]
+      event: [ push, tag ]
       status: [ changed, failure ]
