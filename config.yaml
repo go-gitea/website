@@ -2,7 +2,6 @@ baseurl: https://gitea.io/
 languageCode: en-us
 title: Gitea
 theme: gitea
-disqusShortname: gitea
 
 defaultContentLanguage: en-us
 defaultContentLanguageInSubdir: true
