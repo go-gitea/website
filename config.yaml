@@ -2,7 +2,6 @@ baseurl: https://gitea.io/
 languageCode: en-us
 title: Gitea
 theme: gitea
-disqusShortname: gitea
 
 defaultContentLanguage: en-us
 defaultContentLanguageInSubdir: true
@@ -32,7 +31,7 @@ menu:
       pre: question
     - name: API
       url: https://try.gitea.io/api/swagger
-      weight: 25
+      weight: 45
       pre: plug
     - name: Blog
       url: https://blog.gitea.io/
@@ -80,7 +79,7 @@ languages:
           pre: question
         - name: API
           url: https://try.gitea.io/api/swagger
-          weight: 25
+          weight: 45
           pre: plug
         - name: 博客
           url: https://blog.gitea.io/
@@ -123,7 +122,7 @@ languages:
           pre: question
         - name: API
           url: https://try.gitea.io/api/swagger
-          weight: 25
+          weight: 45
           pre: plug
         - name: 部落格
           url: https://blog.gitea.io/
@@ -166,7 +165,7 @@ languages:
           pre: question
         - name: API
           url: https://try.gitea.io/api/swagger
-          weight: 25
+          weight: 45
           pre: plug
         - name: Blog
           url: https://blog.gitea.io/
@@ -209,7 +208,7 @@ languages:
           pre: question
         - name: API
           url: https://try.gitea.io/api/swagger
-          weight: 25
+          weight: 45
           pre: plug
         - name: Blog
           url: https://blog.gitea.io/
