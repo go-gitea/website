@@ -12,5 +12,5 @@ draft: false
 	Open Source
 </h3>
 
-It's all on [GitHub](https://github.com/go-gitea/gitea/)!
-Join us by contributing to make this project even better. Don't be shy to be a contributor!
+Go get [code.gitea.io/gitea](https://code.gitea.io/gitea/)!
+Join us by [contributing](https://github.com/go-gitea/gitea) to make this project even better. Don't be shy to be a contributor!
