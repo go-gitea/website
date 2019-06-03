@@ -11,9 +11,8 @@ type: "home"
 <h1 class="title is-1">Gitea - Git with a cup of tea</h1>
 <h3 class="subtitle is-3">A painless self-hosted Git service.</h3>
 <h4 class="subtitle">
-	Gitea is a community managed [fork](https://blog.gitea.io/2016/12/welcome-to-gitea/) of [Gogs](https://gogs.io/),
-	lightweight code hosting solution written in [Go](https://golang.org/)
-	and published under the [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) license.
+	Gitea is a community managed lightweight code hosting solution written in [Go](https://golang.org/). 
+	It published under the [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) license.
 </h4>
 
 <div class="container">
