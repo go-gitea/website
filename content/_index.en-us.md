@@ -12,7 +12,7 @@ type: "home"
 <h3 class="subtitle is-3">A painless self-hosted Git service.</h3>
 <h4 class="subtitle">
 	Gitea is a community managed lightweight code hosting solution written in [Go](https://golang.org/). 
-	It published under the [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) license.
+	It is published under the [MIT](https://github.com/go-gitea/gitea/blob/master/LICENSE) license.
 </h4>
 
 <div class="container">
